@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: com.Runner.Runner_GetMethod
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 3.47 sec <<< FAILURE! - in com.Runner.Runner_GetMethod
+runScenario(com.Runner.Runner_GetMethod)  Time elapsed: 1.898 sec  <<< FAILURE!
+java.lang.IllegalStateException: Cannot parse object because no supported Content-Type was specified in response. Content-Type was 'text/html; charset=UTF-8'.
+
+runScenario(com.Runner.Runner_GetMethod)  Time elapsed: 0.593 sec  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <429>.
+
+
